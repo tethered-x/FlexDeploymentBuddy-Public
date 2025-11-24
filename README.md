@@ -19,6 +19,7 @@ This is the main UI. It's broken down into 4 sections.
 <img width="633" height="565" alt="Screenshot 2025-11-24 083331" src="https://github.com/user-attachments/assets/275d9750-aa5d-404e-bb67-c99f2aee8341" />
 
 ADDING AN AGENCY:
+
 Under the "Agency Info" section -
 - Add an agency code (Required)
 - Add an agency name (Required)
@@ -35,6 +36,7 @@ NOTE: If you check TBD, the go-live date and days until go-live will show up as 
 <img width="270" height="68" alt="Screenshot 2025-11-24 083453" src="https://github.com/user-attachments/assets/3d7cec08-979e-4ddb-a7a3-692b756db786" />
 
 SEARCHING/MODIFYING AN AGENCY:
+
 Under the "Agency Info" section -
 - In the "Agency Code" field put your agency code.
 - Then hit "Search"
@@ -50,6 +52,7 @@ From here you can make changes and hit "Modify" when you want to apply those cha
 <img width="277" height="164" alt="Screenshot 2025-11-24 083616" src="https://github.com/user-attachments/assets/cf8e4088-26f7-4daf-910d-049bf4d6eaee" />
 
 UPCOMING GO-LIVES:
+
 This section shows you the top 5 upcoming go-lives. Agencies are sorted by nearest to farthest away.
 The list is broken up in three sections:
 1. Agency Code
@@ -63,6 +66,7 @@ If you hit the "List All" button, it will show you a complete list of all the ag
 <img width="275" height="253" alt="Screenshot 2025-11-24 083524" src="https://github.com/user-attachments/assets/54fea51b-6960-4eb4-aed8-4bca8eae3f67" />
 
 ADDING AGENCY NOTES:
+
 When you add an agency, a .txt file is also created at the same time. These files are saved in the ..\DeploymentBuddy\lib\notes directory.
 
 1. In the "Agency Code" field place the agency code for the agency that you want to make notes on.
@@ -80,7 +84,9 @@ Hit the "Save" button to apply your changes.
 <img width="200" height="129" alt="Screenshot 2025-11-24 083707" src="https://github.com/user-attachments/assets/a4322a81-df3a-4569-89a9-69c2ae22daf4" />
 
 DATA EXCHANGE SYPRIV BUILDER:
+
 You have the option to create a dbloadable .txt file from a collection of syprivs hosted in the DEX_privs.json file found in ..\DeploymentBuddy\lib.
+
 There is a list of 33 DEX vendors available as of this writing.
 
 <img width="305" height="252" alt="Screenshot 2025-11-24 083731" src="https://github.com/user-attachments/assets/da77f7da-ff18-4072-b937-607782199610" />
@@ -99,7 +105,9 @@ The export .txt file will be saved to ..\DeploymentBuddy\DEX_Privs
 <img width="754" height="369" alt="Screenshot 2025-11-24 083801" src="https://github.com/user-attachments/assets/4db7fe63-27ba-4d53-ad34-d855fac28f6e" />
 
 CHANGING THEME COLORS:
+
 The themes are located in the settings.json file in ..\DeploymentBuddy\lib
+
 Feel free to create your own themes. Just follow the layout that the other themes use.
 
 "COBALT": {
