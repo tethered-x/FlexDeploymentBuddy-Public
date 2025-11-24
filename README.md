@@ -3,6 +3,11 @@ Released 11/24/25
 
 Made by Matt Vroom
 
+To install:
+1. Download the DeploymentBuddy.zip file
+2. Unzip it somewhere (I recommend your Documents folder)
+3. Click on DeploymentBuddy.exe to launch
+4. The database will be created on initial launch of the .exe file. It's called "dev_dbs.db" located in ..\DeploymentBuddy\lib
 NOTE: It is important that the DeploymentBuddy folder is granted the ability to read/add/modify files.
 
 This is the main UI. It's broken down into 4 sections. 
