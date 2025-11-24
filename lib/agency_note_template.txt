@@ -1,0 +1,28 @@
+>>> SAA Info <<<
+Name:
+Email:
+
+>>> Server Info <<<
+RAM: 
+CPU: 
+Storage: 
+OS: 
+Flex Version (as of go-live): 
+FQDN: 
+IP: 
+
+>>> Tomcat Memory <<<
+Flex-Cad: 
+Flex-ChangeDataCapture: 
+Flex-DaemonManager: 
+Flex-DataReplicationTool: 
+Flex-Geobase: 
+Flex-GrafanaRrdDataSource: 
+Flex-Mobile: 
+Flex-Spillman: 
+Flex-SpillmanApi: 
+SpillmanInterfacesServer: 
+TomcatSpillmanServer: 
+Xcurserver: 
+
+========================================================================================================================

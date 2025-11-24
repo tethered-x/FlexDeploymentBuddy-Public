@@ -1,0 +1,654 @@
+{     
+    "VENDORS": {
+        "GuardianRFID": {
+            "SYPRIVS":[
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|jlinmvlg| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|jlinmate| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|nmmain| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|jllcbddt| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|image| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_jlinmate| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_jlinmvlg| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_nmmain| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_jllcbddt| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_image| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_jllocatn| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N"
+            ]
+        },
+        "NEOGOV": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|apcity          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apcity      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|apnames         | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apnames     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|cdcall          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcall      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|gbaddr          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_gbaddr      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|rlofficr        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlofficr    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tbnatur         | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbnatur     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tbpdterm        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbpdterm    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|lwmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_lwmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|rlmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|cdhist          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdhist      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "WatchGuard": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_cdcall      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlofficr    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_lwmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apnames     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_aptbmisc    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "EMSCharts": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery    | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|apagncy     | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|apcity      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|apnames     | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|cdcall      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|cdhist      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|cdunit      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|emmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|emnarr      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|frmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|gbaddr      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|odbc        | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|pemain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|rlmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|rlofficr    | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|sycad       | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_acmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_apagncy | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_apcity  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_apnames | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_cdcall  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_cdhist  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_cdunit  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_emmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_emnarr  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_frmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_gbaddr  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_pemain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_rlmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_rlofficr| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_sycad   | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N"
+            ]
+        },
+        "ImageTrend": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery    | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_cdcall  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_cdrespo | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_cdcdesc | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_gbaddr  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_emmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_emcond  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_emrespo | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_cdunit  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_empatien| 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_nmmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_apstate | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_frmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_frrespo | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|tab_rlmain  | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|prolog      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|cdcall      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|cdrespo     | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|cdcdesc     | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|gbaddr      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|emmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|emcond      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|emrespo     | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|cdunit      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|empatien    | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|apstate     | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|frmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|frrespo     | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N",
+                "U|{flex_uid}|rlmain      | 1| 0| 0| 0| 1| 0| 0|:: //| 1|N"
+            ]
+        },
+        "Genesis_eBonds": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_jlbkxof     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tblaw       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jloffens    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlofxar     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlhold      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarrest    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_image       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllclev1    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbond      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlofxbd     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbcourt     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "BJM": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_image       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlhold      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxof     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jloffens    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tblaw       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlofxbd     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbond      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxar     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarrest    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "Chief360": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_sycad    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcall   | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apcity   | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbnatur  | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain   | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_gbaddr   | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_syunit   | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcdesc  | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbpdterm | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdccomnt | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apstate  | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_gbaddr   | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apagncy  | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbzones  | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "Civic_Eye": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_image       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxof     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkdisp    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_fmarrest    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkadjt    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarst      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbktype    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarrest    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxar     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllcbddt    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tblaw       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jloffens    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jmarrest    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "CorEMR": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery    | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlbook  | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllocatn| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_nmmain  | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlinmate| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N"
+            ]
+        },
+        "CorrecTek": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_image          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain         | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery           | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "ESO_Solutions": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_cdcall| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_cdrespo| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_cdcdesc| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_gbaddr| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_emmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_emcond| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_emrespo| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_cdunit| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_empatien| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_nmmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_apstate| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_frmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_frrespo| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_rlmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_tb10code| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|prolog| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N"
+            ]
+        },
+        "Eventide": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_cdcall          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcdesc         | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_lwmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "Fireworks_EPR": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|cd2callm        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|frmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|gbaddr          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apcity      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcall      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cddesc      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_emmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_frmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_gbaddr      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlavilog    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_sycad       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_syunit      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbhnatur    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlcad2rms      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "First_Arriving": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_sycad           | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcall          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcdesc         | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_syunit          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "GovWorx": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_cdcall| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|cdcall| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdhist| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|cdhist| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdunit| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|cdunit| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbnatur| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tbnatur| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_gbaddr| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|gbaddr| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apnames| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|apnames| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_pemain| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|pemain| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|nmmain| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdccomnt| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|cdccomnt| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_aplilog| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|aplilog| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|rlmain| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlofficr| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|rlofficr| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "Guard1": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllclev3    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_image       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllcbed     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinrskd    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinflag    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllctype    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllclev1    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllclev2    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllcbddt    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllclev4    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlprroom    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinkstp    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinksdt    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinrisk    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlflag      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlprgrp     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlprloc     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "ICS": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlinmate| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllcbddt| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllocatn| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_nmmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N"
+            ]
+        },
+        "Keefe": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_jllocatn    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllcbddt    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "Lockdown": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlinmate| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllcbddt| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllocatn| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_nmmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlbook| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N"
+            ]
+        },
+        "McDaniel": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlarrest| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlbkxar| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlbkxof| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlbond| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlinhslg| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlinmate| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllcbddt| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllocatn| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jloffens| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlofxbd| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_tblaw| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_tboff| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N"
+            ]
+        },
+        "NCIC": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_jlinmate          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "OCV": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_cdhist      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_sycad       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcall      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_wamain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbond      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlofxbd     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tblaw       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tboff       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jloffens    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxof     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_image       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarrest        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbdxsn        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxar        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxbd        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlofxar        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlofxsn        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcdesc        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "PulsePoint": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_sycad          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcall          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcdesc       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_syunit          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "Tablet_Command-Spot": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_sycad| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_apagncy| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_apcity| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_frmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_gbaddr| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_cdcdesc| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_emmain| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_syunit| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_tb10code| 1| 0| 0| 0| 1| 0| 0|:: //|  1|N"
+            ]
+        },
+        "Tech_Friends": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllcbddt | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jllocatn | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_nmmain | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N",
+                "U|{flex_uid}|tab_jlinmate | 1| 0| 0| 0| 1| 0| 0|:: //|  1|N"
+            ]
+        },
+        "TigerCommissary_LoneStar": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllcbddt    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "VendEngine": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarrest    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxar    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxof    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbond    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbed    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllcbddt    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jloffens    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlofxbd    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tblaw    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tboff    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "ViaPath": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_nmmain      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlcordr     | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|jlbook          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|jlinmate        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|jlcordr         | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|jlarrest        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|nmsmt           | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|jllocatn        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "VINE": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_jlcommit|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbkro|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlarrest|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlarnarr|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlarrest|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbkdisp|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbkrel|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbkro|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbktime|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbktype|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbkxar|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbkxof|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbkxor|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbllog|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlbook|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlcmtype|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlcommit|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlinmate|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jllocatn|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jloffens|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|jlofncic|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|nmextra|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|nmsmt|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_imgtype|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmsmt|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tbimcode|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tboff|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbkxar|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmextra|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jloffens|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbkxof|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbktime|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmmain|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|xmlquery|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tbrelat|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tbotype|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tboff|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tbmarit|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tblawjur|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tblaw|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tbcrime|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tbcourt|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_tbcolor|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbspch|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbrelg|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbrace|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbntyp|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbitem|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbglas|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbface|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbethn|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbcpl|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbcitz|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbbodp|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbbld|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmtbalrt|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_nmprobat|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_lwtbress|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jmtbncic|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_apagncy|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jcseccls|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbkdisp|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbkrel|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbktype|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlbook|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlcmtype|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlinmate|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlinrisk|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlinsccl|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jllclev1|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jllclev2|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jllclev3|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jllclev4|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jllocatn|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlofdisp|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlofjdst|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jlofncic|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jmtbarty|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jmtbdisp|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jmtbent|1|0|0|0|1|0|0|:: //|1|N",
+                "U|{flex_uid}|tab_jmtbevnt|1|0|0|0|1|0|0|:: //|1|N"
+            ]
+        },
+        "Visor-Sylogist": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarrest| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jloffens| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tblaw| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_apagncy| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarof| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbktime| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlevtype| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_image| 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "WellPath": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|xmlquery        | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlinmate   | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_nmmain    | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_image       | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllocatn      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jllcbddt      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbook      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlbkxar      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_jlarrest      | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        },
+        "Zoll_eCPR": {
+            "SYPRIVS": [
+                "# sypriv|idtype|idval|pgm|access|addf|modf|delf|inqf|lokf|pasf|modwhen|modby|admin",
+                "U|{flex_uid}|tab_apcity          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcall          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_cdcdesc            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_emmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_frmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_gbaddr            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_rlmain          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_sycad          | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_tbnatur            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|xmlquery            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N",
+                "U|{flex_uid}|tab_syunit            | 1| 0| 0| 0| 1| 0| 0|:: //|  100|N"
+            ]
+        }
+    }
+}

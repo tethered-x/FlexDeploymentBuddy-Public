@@ -1,0 +1,40 @@
+{
+    "Client": {
+        "THEME_CHOICE": "COBALT",
+        "DEX_FOLDER": "DEX_Privs",
+        "GUI_THEMES": {
+            "STEAM": {
+                "success": "#968732",
+                "error": "#d1675a",
+                "text": "#eff6ee",
+                "labels": "#a2a795",
+                "background": "#4c5844",
+                "field_background": "#3f4738"
+            },
+            "COBALT": {
+                "success": "#c2e37b",
+                "error": "#de4a14",
+                "text": "#ffffff",
+                "labels": "#a8afb5",
+                "background": "#142838",
+                "field_background": "#0c547a"
+            },
+            "HOT PINK": {
+                "success": "#c2e37b",
+                "error": "#4F0048",
+                "text": "#4F0048",
+                "labels": "#ffffff",
+                "background": "#FF46A2",
+                "field_background": "#DE92B8"
+            },
+            "NIGHT": {
+                "success": "#00719e",
+                "error": "#e81c23",
+                "text": "#ffffff",
+                "labels": "#b0b2b5",
+                "background": "#000912",
+                "field_background": "#3d3d3d"
+            }
+        }
+    }
+}
